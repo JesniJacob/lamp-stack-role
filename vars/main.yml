@@ -1,0 +1,17 @@
+---
+
+webserver_packages:
+  - httpd
+  - php
+  - php-mysqlnd
+
+httpd_port: 80
+httpd_servername: "wordpress.jesni.shop"
+httpd_docroot: "/var/www/html/default/"
+httpd_owner: "apache"
+httpd_group: "apache"
+    
+mariadb_root_password: "mysqlroot123"
+mariadb_extra_user: "wpuser"
+mariadb_extra_password: "wpuser123"
+mariadb_extra_db: "wpuserdb"
